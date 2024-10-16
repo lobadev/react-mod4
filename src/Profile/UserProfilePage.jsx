@@ -6,9 +6,9 @@ import Form from "./Form";
 function UserProfilePage() {
     // Initialize state for user data, now including username
     const [userData, setUserData] = useState({
-        name: 'Juan Dela Cruz', 
-        email: 'juan@gmail.com',
-        username: 'juandc' // New field
+        name: 'Kevin Miranda', 
+        email: 'kevin@gmail.com',
+        username: 'loba' // New field
     });
 
     const handleUpdate = (updatedInfo) => {
