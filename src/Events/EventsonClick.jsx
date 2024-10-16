@@ -11,6 +11,7 @@ function EventsonClick(){
 
 
     const handleEvent = (event) => {
+        event.stopPropagation();
         console.log(`Event type: ${event.type}`);
         handleClick();
     }
